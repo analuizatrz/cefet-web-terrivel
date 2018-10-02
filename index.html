@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Terrível</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<form action="/enviar.php" method="POST" class="form-table">
+		<div class="form-row">
+			<label class="form-col" type="number">Número de pedras:  </label>
+			<input class="form-col" name="num_pedras">		
+		</div>
+		<div class="form-row">
+			<label class="form-col">Tamanho das pedras: </label>
+			<input class="form-col" name="tam_pedras">
+		</div>
+		<div class="form-row">
+			<label class="form-col">Nome: </label>
+			<input class="form-col" name="nome">
+		</div>
+		<div class="form-row">
+			<label class="form-col">Cor superior do ceu: </label>
+			<input class="form-col" name="CorCeu1">
+		</div>
+		<div class="form-row">
+			<label class="form-col">Cor inferior do ceu: </label>
+			<input class="form-col" name="CorCeu1">
+		</div>
+		<div class="form-row">
+			<label class="form-col" for="tipo_pedras">Tipo de pedra: </label>
+			<select class="form-col" name="tipo_pedras" id="tipo_pedras">
+				<option value="marroada" selected>Marroada</option>
+				<option value="ametista">Ametista</option>
+				<option value="topazio">Topazio</option>
+				<option value="espinela">Espinela</option>
+			</select>
+		</div>
+		<div class="form-row">
+			<label class="form-col" >Pedras sortidas: </label>
+			<input class="form-col" name="tipo_pedras_sortidas" type="checkbox" value="sim">
+		</div>
+		<div class="form-row">
+			</label>
+			<input class="form-col" type="submit" value="Enviar">
+		</div>
+	</form>
+</body>
+</html>
